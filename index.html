@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="tool">
+
+            <div class="form-group">
+                <label for="">All Corners <span id="allValue">10px</span></label>
+                <input type="range" value="10" min="0" max="300" id="all">
+            </div>
+            <div class="form-group">
+                <label for="">Border Size <span id="border_value">10px</span></label>
+                <input type="range" value="10" min="0" max="100" id="border_all_value">
+            </div>
+            <div class="form-group">
+                <label for="">Border Style</label>
+                <select id="select-style">
+                    <option>solid</option>
+                    <option>dotted</option>
+                    <option>dashed</option>
+                    <option>double</option>
+                    <option>groove</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <textarea name="" id="code"></textarea>
+            </div>
+
+            <div class="form-group">
+                <button id="btnCopy">Copy Code</button>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
